@@ -3,7 +3,7 @@
 int main() {
 	CURL *curl = curl_easy_init();
 	if(curl) {
-		curl_easy_setopt(curl, CURLOPT_URL, "https://username:password@account.cloudant.com/test");
+		curl_easy_setopt(curl, CURLOPT_URL, "https://username:password@account.cloudant.com/database");
 
 		struct curl_slist *chunk = NULL;
 		chunk = curl_slist_append(chunk, "Content-Type: application/json");

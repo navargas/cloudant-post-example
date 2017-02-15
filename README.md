@@ -6,7 +6,7 @@ Usage:
 ```bash
 git clone github.com/navargas/cloudant-post-exmple
 cd cloudant-post-example
-# edit main.c with username/password/account
+# edit main.c with username/password/account/database
 make
 bin/main
 ```
